@@ -1,5 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import Image from "next/image";
+import Topbar from "./components/topbar";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -23,6 +25,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Topbar/>
         {children}
       </body>
     </html>
