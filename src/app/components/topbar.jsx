@@ -18,21 +18,10 @@ export default function topbar() {
                   <ul className="flex items-center gap-6 text-sm">
                     <Link href="/" className="text-gray-500 transition hover:text-gray-500/75" >Beranda</Link>
                     <Link href="/blog" className="text-gray-500 transition hover:text-gray-500/75" >Blog</Link>
-                    <li>
-                      <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Produk & Portofolio </a>
-                    </li>
-
-                    <li>
-                      <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Tentang Kami </a>
-                    </li>
-
-                    <li>
-                      <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Kontak </a>
-                    </li>
-
-                    <li>
-                      <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Blog </a>
-                    </li>
+                    <Link href="/produk-portofolio" className="text-gray-500 transition hover:text-gray-500/75">Produk & Portofolio</Link>
+                    <Link href="/tentang-kami" className="text-gray-500 transition hover:text-gray-500/75">Tentang Kami</Link>
+                    <Link href="/kontak" className="text-gray-500 transition hover:text-gray-500/75">Kontak</Link>
+                    <Link href="/blog" className="text-gray-500 transition hover:text-gray-500/75" >Blog</Link>
                   </ul>
                 </nav>
               </div>
